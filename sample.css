@@ -1,0 +1,153 @@
+/* Global resets */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+  color: #424242;
+  line-height: 1.4;
+}
+
+
+/* Fonts */
+
+h1 {
+  font-family: "rooney-web", 'AmericanTypewriter', Rockwell, serif;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.container {
+  margin: 2em auto;
+  max-width: 630px;
+  text-align: center;
+}
+
+
+/* COLORS: 
+  blue: #20A1D4;
+  green: #1CBC2C;
+  orange: #EF5F3C;
+  black: #424242;
+  grey: #777;
+  light grey: #eaeaea;
+*/
+
+
+/* Your CSS goes here */
+
+.donation-ad {
+  margin: 2em auto;
+  max-width: 261px;
+}
+
+.tooltip {
+  background-color: #424242;
+  border: #424242;
+  border-style: solid;
+  border-width: 12px 12px 14px 12px;
+  border-radius: 3px;
+  font-size: .83em;
+  color: #eaeaea;
+}
+
+.tooltip-triangle {
+  width: 0px;
+  height: 0px;
+  float: right;
+  margin-right: 30px;
+  padding-top: 9px;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 6px solid;
+}
+
+.bar {
+  margin-top: 9px;
+  border: #eaeaea;
+  border-style: solid;
+  border-width: 1px;
+  text-align: left;
+}
+
+.bar-progress {
+  background-color: #EF5F3C;
+  margin-right: 65px; /* round 167/500 * 194px */
+  border: #eaeaea;
+  border-style: solid;
+  border-width: 0px 1px 0px 0px;
+  padding: 5px;
+}
+
+.message {
+  margin-top: -1px;
+  margin-bottom: 10px;
+  border: #eaeaea;
+  border-style: solid;
+  border-width: 1px 1px 2px 1px;
+  padding: 10px 20px 15px 20px;
+  font-size: .75em;
+  color: #777;
+  text-align: left;
+  line-height: 1.42;
+}
+
+.message b {
+  font-weight: 900;
+}
+
+.message a {
+  color: #20A1D4;
+}
+
+.message .highlight {
+  font-weight: 900;
+  color: #EF5F3C;
+}
+
+.message .float-text {
+  margin-left: -95px;
+  font-family: Arial;
+  font-size: 1.25em;
+  font-weight: 700;
+}
+
+.message input {
+  width: 105px;
+  height: 45px;
+  margin: -3px;
+  margin-bottom: 4px;
+  border: #eaeaea;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  padding-left: 20px;
+  font-size: 1.25em;
+  font-weight: 700;
+}
+
+.message button {
+  width: 105px;
+  height: 45px;
+  background-color: #1CBC2C;
+  margin: -3px;
+  border: #1CBC2C;
+  font-size: 1.2em;
+  color: white;
+}
+
+button {
+  width: 123px;
+  height: 35px;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px 1px 2px 1px;
+  border-radius: 3px;
+  font-size: 0.73em;
+  font-weight: 700;
+  color: #777;
+}
